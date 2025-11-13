@@ -1,8 +1,10 @@
 manifestVersion: 1
-id: personal-hashicorp-vault
-name: HashiCorp Vault
+id: "vault"
+name: "HashiCorp Vault"
 tagline: Securely store API keys, passwords, tokens, and secrets.
 icon: https://docs.rconfig.com/images/logos/vault-hashicorp-logo-920x920-sue-v1.png
+data:
+  storage: /data
 category: security
 version: "1.0"
 port: 8200
