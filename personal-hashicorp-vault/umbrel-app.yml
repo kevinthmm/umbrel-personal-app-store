@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: personal-hashicorp-vault
+name: HashiCorp Vault
+tagline: Securely store API keys, passwords, tokens, and secrets.
+icon: https://mosquitto.org/stickers/mosquitto-mono.png
+category: security
+version: "1.0"
+port: 8200
+description: >-
+  Vault is a tool for securely accessing secrets. 
+  A secret is anything that you want to tightly control access to, such as API keys, passwords, certificates, and more. 
+  Vault provides a unified interface to any secret, while providing tight access control and recording a detailed audit log.
+
+developer: HashiCorp, an IBM Company
+website: https://developer.hashicorp.com/vault
+repo: https://github.com/hashicorp/vault
+support: https://github.com/hashicorp/vault/issues
+gallery:
+  - https://docs.rconfig.com/images/logos/vault-hashicorp-logo-920x920-sue-v1.png
+releaseNotes: >-
+  Initial HashiCorp Vault.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Kevin Thom
+submission: https://github.com/kevinthmm/umbrel-personal-app-store

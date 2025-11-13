@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  server:
+    image: hashicorp/vault:latest@sha256:62dd55c9ccbdc0af0a9269e87481a64650258907434d5ddb5e795e2eb2ac5780
+    container_name: vault
+    restart: unless-stopped
+    cap_add:
+      - IPC_LOCK
+
+    ports:
+      - "8200:8200"
+
+    volumes:
+      - ${APP_DATA_DIR}/config/:/vault/config
+      - ${APP_DATA_DIR}/file/:/vault/file
+
+    environment:
+      VAULT_ADDR: "http://0.0.0.0:8200"
+
+    command: >
+      vault server
+      -config=/vault/config/vault.hcl

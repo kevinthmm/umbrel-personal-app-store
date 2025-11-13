@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: home-automation-zigbee2mqtt
+id: personal-zigbee2mqtt
 name: Zigbee2MQTT
 tagline: Bridge between Zigbee devices and MQTT broker
 icon: https://www.zigbee2mqtt.io/logo.png
@@ -24,4 +24,4 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 submitter: Kevin Thom
-submission: https://github.com/kevinthmm/umbrel-home-automation-app-store
+submission: https://github.com/kevinthmm/umbrel-personal-app-store
