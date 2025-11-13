@@ -2,7 +2,7 @@ manifestVersion: 1
 id: personal-hashicorp-vault
 name: HashiCorp Vault
 tagline: Securely store API keys, passwords, tokens, and secrets.
-icon: https://mosquitto.org/stickers/mosquitto-mono.png
+icon: https://docs.rconfig.com/images/logos/vault-hashicorp-logo-920x920-sue-v1.png
 category: security
 version: "1.0"
 port: 8200
@@ -16,7 +16,8 @@ website: https://developer.hashicorp.com/vault
 repo: https://github.com/hashicorp/vault
 support: https://github.com/hashicorp/vault/issues
 gallery:
-  - https://docs.rconfig.com/images/logos/vault-hashicorp-logo-920x920-sue-v1.png
+  - https://github.com/hashicorp/vault/blob/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+  - https://developer.hashicorp.com/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F2885%2F1679087583-devdot-vault_dm.png&w=3840&q=75&dpl=dpl_4vZsziCFnr5qkTRZkTaRYQhzb75z
 releaseNotes: >-
   Initial HashiCorp Vault.
 dependencies: []
